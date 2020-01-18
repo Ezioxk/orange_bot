@@ -1,6 +1,6 @@
 ﻿$projectDir = Split-Path $PSScriptRoot -Parent
 
-$coolqRoot = "C:\Users\Richard\Lab\酷Q Air" # 修改为你的酷Q目录
+$coolqRoot = "D:\Program Files\CQP-Orange\CQ_Pro" # 修改为你的酷Q目录
 $appId = Get-Content "$projectDir\app_id.txt"
 $appOutDir = $args[0]
 
